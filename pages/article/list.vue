@@ -1,0 +1,9 @@
+<template>
+  <div>
+    <ul>
+      <li>jess</li>
+      <li>dolly</li>
+      <li>linda</li>
+    </ul>
+  </div>
+</template>

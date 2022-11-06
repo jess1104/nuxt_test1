@@ -13,6 +13,7 @@
 
 <style scoped>
 .nav {
+  display: inline-block;
   margin-left: 10px;
 }
 </style>

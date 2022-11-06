@@ -11,6 +11,25 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: "default",
+
+  created() {
+    this.getDogImage();
+  },
+  methods: {
+    getDogImage() {
+      const api = `https://dog.ceo/api/breeds/image/random`;
+      this.$axios.get(api).then((respons) => {
+        console.log(respons);
+        // this.image = respons.data.message;
+      });
+    },
+  },
+};
+</script>
+
 <style scoped>
 .nav {
   display: inline-block;
